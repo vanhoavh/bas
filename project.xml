@@ -72376,7 +72376,7 @@
                                                 VAR_CURRENT_URL_443722968 = _result()
                                                 section_end()!
 
-                                                section_start("\u007b\u0022f\u0022:true\u007d", 375240798)!
+                                                section_start("", 375240798)!
                                                 /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjU0MDA2NTgzOCwibWFzdGVyIjo2MjIzODYyOCwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tDU1NfT1BFTl1dID09IChcIiA+Q1NTPiAgI2pvYl9hcmVhX1wiK1tbSk9CX0lEXV0rXCIgPiBhXCIpIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWUsImlzX2RlZiI6ZmFsc2V9XX0=*/
                                                 _cycle_params().if_else = VAR_CSS_OPEN == (" >CSS>  #job_area_"+VAR_JOB_ID+" > a");
                                                 _set_if_expression("W1tDU1NfT1BFTl1dID09ICgiID5DU1M+ICAjam9iX2FyZWFfIitbW0pPQl9JRF1dKyIgPiBhIik=");
@@ -72871,7 +72871,7 @@
                                                    })!
                                                    section_end()!
 
-                                                   section_start("\u007b\u0022f\u0022:true\u007d", 572994497)!
+                                                   section_start("", 572994497)!
                                                    /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tJU19FWElTVFNdXSIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZSwiaXNfZGVmIjp0cnVlfV19*/
                                                    _set_if_expression("W1tJU19FWElTVFNdXQ==");
                                                    _if(typeof(VAR_IS_EXISTS) !== "undefined" ? (VAR_IS_EXISTS) : undefined,function(){
@@ -81779,12 +81779,6 @@
                                                                   _set_if_expression("W1tUT1RBTF9UQUJTXV0gPiAx");
                                                                   _if(VAR_TOTAL_TABS > 1,function(){
                                                                   section_insert()
-                                                                     section_start("", 134327058)!
-                                                                     /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9DTE9TRV9BTEwifV19*/
-                                                                     _call_function(_CLOSE_ALL,{})!
-                                                                     _result_function()
-                                                                     section_end()!
-
                                                                   })!
                                                                   section_end()!
 
@@ -128314,7 +128308,7 @@ ToolboxHeight=287
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
-ScenarioWidth=882
+ScenarioWidth=871
 Zoom=100
 IsMaximized=true
 Restart=true
