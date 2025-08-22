@@ -43326,9 +43326,9 @@
                         _if(typeof(VAR_FOREACH_DATA) !== "undefined" ? (VAR_FOREACH_DATA) : undefined,function(){
                         section_insert()
                            section_start("", 196056685)!
-                           /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQ09JTl1dID0gXCJcIlxyXG5bW0NPSU4xXV0gPSBcIlBFUEVcIlxyXG50cnl7XHJcbiAgICBhID0gW1tGT1JFQUNIX0RBVEFdXS5zcGxpdChcInxcIilcclxuICAgIGkgPSAwXHJcbiAgICBbW0NPSU5dXSA9IGFbaSsrXVxyXG59Y2F0Y2goZSl7fSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+                           /*Dat:eyJzIjoiY3VzdG9tIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkNvZGUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbQ09JTl1dID0gXCJcIlxyXG5bW0NPSU4xXV0gPSBcInBlcGVcIlxyXG50cnl7XHJcbiAgICBhID0gW1tGT1JFQUNIX0RBVEFdXS5zcGxpdChcInxcIilcclxuICAgIGkgPSAwXHJcbiAgICBbW0NPSU5dXSA9IGFbaSsrXVxyXG59Y2F0Y2goZSl7fSIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
                            VAR_COIN = ""
-                           VAR_COIN1 = "PEPE"
+                           VAR_COIN1 = "pepe"
                            try{
                            a = VAR_FOREACH_DATA.split("|")
                            i = 0
@@ -136589,7 +136589,7 @@ ToolboxHeight=274
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
-ScenarioWidth=848
+ScenarioWidth=648
 Zoom=100
 IsMaximized=true
 Restart=true
