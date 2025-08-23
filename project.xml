@@ -42410,7 +42410,7 @@
          })!
          section_end()!
 
-         section_start("", 157397618)!
+         section_start("\u007b\u0022f\u0022:true\u007d", 157397618)!
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1NMXV0gPT0gXCJjbGFpbTRcIiAmJiBbW0pPQl9GQVVDRVRfQk9PTF1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
          _set_if_expression("W1tTTF1dID09ICJjbGFpbTQiICYmIFtbSk9CX0ZBVUNFVF9CT09MXV0=");
          _if(VAR_SL == "claim4" && VAR_JOB_FAUCET_BOOL,function(){
@@ -43230,6 +43230,26 @@
          _set_if_expression("W1tTTF1dID09ICJjbGFpbTUiICYmIFtbSk9CX0ZBVUNFVF9CT09MXV0=");
          _if(VAR_SL == "claim5" && VAR_JOB_FAUCET_BOOL,function(){
          section_insert()
+            section_start("", 821687100)!
+            /*Dat:eyJzIjoidXJsIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IlNhdmVVcmwiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IkNVUlJFTlRfVVJMIn1dfQ==*/
+            /*Browser*/
+            url()!
+            VAR_CURRENT_URL = _result()
+            section_end()!
+
+            section_start("", 208397504)!
+            /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0NVUlJFTlRfVVJMXV0uaW5kZXhPZihcImh0dHBzOi8vcGVwZWZhdWNldC54eXovZGFzaGJvYXJkXCIpID49IDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+            _set_if_expression("W1tDVVJSRU5UX1VSTF1dLmluZGV4T2YoImh0dHBzOi8vcGVwZWZhdWNldC54eXovZGFzaGJvYXJkIikgPj0gMA==");
+            _if(VAR_CURRENT_URL.indexOf("https://pepefaucet.xyz/dashboard") >= 0,function(){
+            section_insert()
+               section_start("", 189831710)!
+               /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3BlcGVmYXVjZXQueHl6L2ZhdWNldC9wZXBlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+               _load("https://pepefaucet.xyz/faucet/pepe", "", false)!
+               section_end()!
+
+            })!
+            section_end()!
+
             section_start("", 554409912)!
             /*Dat:eyJzIjoid2hpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IldoaWxlRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoidHJ1ZSIsImNsYXNzIjoiZXhwcmVzc2lvbiIsImlzX2RlZiI6ZmFsc2V9XX0=*/
             _do(function(){
