@@ -43296,9 +43296,54 @@
             _set_if_expression("W1tDVVJSRU5UX1VSTF1dLmluZGV4T2YoImh0dHBzOi8vcGVwZWZhdWNldC54eXovZGFzaGJvYXJkIikgPj0gMA==");
             _if(VAR_CURRENT_URL.indexOf("https://pepefaucet.xyz/dashboard") >= 0,function(){
             section_insert()
-               section_start("", 189831710)!
-               /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3BlcGVmYXVjZXQueHl6L2ZhdWNldC9wZXBlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
-               _load("https://pepefaucet.xyz/faucet/pepe", "", false)!
+               section_start("", 145139802)!
+               /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+               _call(function()
+               {
+               _on_fail(function(){
+               VAR_LAST_ERROR = _result()
+               VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+               VAR_WAS_ERROR = false
+               _break(1,true)
+               })
+               CYCLES.Current().RemoveLabel("function")
+               section_insert()
+                  section_start("", 57063973)!
+                  /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3BlcGVmYXVjZXQueHl6L2ZhdWNldC9wZXBlIiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiUmVmZXJyZXIiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIn1dfQ==*/
+                  _load("https://pepefaucet.xyz/faucet/pepe", "", false)!
+                  section_end()!
+
+               },null)!
+               section_end()!
+
+               section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 12218135)!
+               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+               _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+               _if(VAR_WAS_ERROR,function(){
+               section_insert()
+                  section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 558729652)!
+                  /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkVycm9yIG9jY3VycmVkIDogW1tMQVNUX0VSUk9SXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+                  log("Error occurred : " + VAR_LAST_ERROR)
+                  section_end()!
+
+                  section_start("", 993500744)!
+                  /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJfTE9HIn0seyJpZCI6IlBhcmFtSWRfNmM2ZjY3NWY2MzZmNmM2ZjcyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJncmF5IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUGFyYW1JZF82YzZmNjc1ZjY5NmQ2NyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJQYXJhbUlkXzZjNmY2NzVmNzQ2NTc4NzQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbTEFTVF9FUlJPUl1dIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUGFyYW1JZF82YzZmNjc1Zjc0NjciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+                  _call_function(_LOG,{ "log_color" : ("gray") ,  "log_img" : ("") ,  "log_text" : (VAR_LAST_ERROR) ,  "log_tg" : ("")  })!
+                  _result_function()
+                  section_end()!
+
+                  section_start("", 613602743)!
+                  /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9fY2xhaW1jb2luIn0seyJpZCI6IlBhcmFtSWRfNzM2YyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoibG9naW4iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+                  _call_function(__claimcoin,{ "sl" : ("login")  })!
+                  _result_function()
+                  section_end()!
+
+                  section_start("", 376373831)!
+                  /*Dat:eyJzIjoicmV0dXJuIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJSZXR1cm5WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9XX0=*/
+                  _function_return("")
+                  section_end()!
+
+               })!
                section_end()!
 
             })!
@@ -43628,9 +43673,54 @@
                /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6Njc3NTE5NzcwLCJtYXN0ZXIiOjI1NDIyMjEzMCwiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIoW1tDT0lOMl1dKS5pbmRleE9mKFtbQ1VSUkVOVF9VUkxdXSkgPj0gMCIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9LHsiaWQiOiJJZkVsc2UiLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjp0cnVlfV19*/
                _if(!_cycle_params().if_else,function(){
                section_insert()
-                  section_start("", 860390426)!
-                  /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3BlcGVmYXVjZXQueHl6L2ZhdWNldC9bW0NPSU4xXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJSZWZlcnJlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifV19*/
-                  _load("https://pepefaucet.xyz/faucet/" + VAR_COIN1, "", true)!
+                  section_start("", 768532609)!
+                  /*Dat:eyJzIjoiaWdub3JlZXJyb3JzIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbXX0=*/
+                  _call(function()
+                  {
+                  _on_fail(function(){
+                  VAR_LAST_ERROR = _result()
+                  VAR_ERROR_ID = ScriptWorker.GetCurrentAction()
+                  VAR_WAS_ERROR = false
+                  _break(1,true)
+                  })
+                  CYCLES.Current().RemoveLabel("function")
+                  section_insert()
+                     section_start("", 860946709)!
+                     /*Dat:eyJzIjoibG9hZCIsInYiOjEsImYiOltdLCJ1dyI6IjEiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMb2FkVXJsIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJodHRwczovL3BlcGVmYXVjZXQueHl6L2ZhdWNldC9bW0NPSU4xXV0iLCJjbGFzcyI6InN0cmluZyJ9LHsiaWQiOiJSZWZlcnJlciIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifV19*/
+                     _load("https://pepefaucet.xyz/faucet/" + VAR_COIN1, "", false)!
+                     section_end()!
+
+                  },null)!
+                  section_end()!
+
+                  section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 112778722)!
+                  /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1dBU19FUlJPUl1dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+                  _set_if_expression("W1tXQVNfRVJST1JdXQ==");
+                  _if(VAR_WAS_ERROR,function(){
+                  section_insert()
+                     section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 587553430)!
+                     /*Dat:eyJzIjoibG9nIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkxvZ1RleHQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IkVycm9yIG9jY3VycmVkIDogW1tMQVNUX0VSUk9SXV0iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+                     log("Error occurred : " + VAR_LAST_ERROR)
+                     section_end()!
+
+                     section_start("", 671878544)!
+                     /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJGdW5jdGlvbk5hbWUiLCJ0eXBlIjoidGV4dCIsImRhdGEiOiJfTE9HIn0seyJpZCI6IlBhcmFtSWRfNmM2ZjY3NWY2MzZmNmM2ZjcyIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJncmF5IiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUGFyYW1JZF82YzZmNjc1ZjY5NmQ2NyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9LHsiaWQiOiJQYXJhbUlkXzZjNmY2NzVmNzQ2NTc4NzQiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbTEFTVF9FUlJPUl1dIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOmZhbHNlfSx7ImlkIjoiUGFyYW1JZF82YzZmNjc1Zjc0NjciLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiIsImNsYXNzIjoic3RyaW5nIiwiaXNfZGVmIjp0cnVlfV19*/
+                     _call_function(_LOG,{ "log_color" : ("gray") ,  "log_img" : ("") ,  "log_text" : (VAR_LAST_ERROR) ,  "log_tg" : ("")  })!
+                     _result_function()
+                     section_end()!
+
+                     section_start("", 778615251)!
+                     /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9fY2xhaW1jb2luIn0seyJpZCI6IlBhcmFtSWRfNzM2YyIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoibG9naW4iLCJjbGFzcyI6InN0cmluZyJ9XX0=*/
+                     _call_function(__claimcoin,{ "sl" : ("login")  })!
+                     _result_function()
+                     section_end()!
+
+                     section_start("", 466741985)!
+                     /*Dat:eyJzIjoicmV0dXJuIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJ1ZSI6IjAiLCJ1c3AiOiIwIiwiZCI6W3siaWQiOiJSZXR1cm5WYWx1ZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmciLCJpc19kZWYiOnRydWV9XX0=*/
+                     _function_return("")
+                     section_end()!
+
+                  })!
                   section_end()!
 
                })!
