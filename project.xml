@@ -43452,11 +43452,20 @@
                                     section_end()!
 
                                     section_start("", 120469316)!
-                                    /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjU2MTYyMjExNCwibWFzdGVyIjozNDUzNjA2OTEsImlmX3ZhciI6Il9jeWNsZV9wYXJhbXMoKS5pZl9lbHNlIiwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIShbW0xJTUlUX0ZBVUNFVF8xXV0gPT0gXCIyXCIpIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
-                                    _cycle_params().if_else = !(VAR_LIMIT_FAUCET_1 == "2");
-                                    _set_if_expression("IShbW0xJTUlUX0ZBVUNFVF8xXV0gPT0gIjIiKQ==");
+                                    /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoibWFzdGVyIiwic2xhdmUiOjU2MTYyMjExNCwibWFzdGVyIjozNDUzNjA2OTEsImlmX3ZhciI6Il9jeWNsZV9wYXJhbXMoKS5pZl9lbHNlIiwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIShbW0xJTUlUX0ZBVUNFVF8xXV0gPCBcIjFcIikiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dfQ==*/
+                                    _cycle_params().if_else = !(VAR_LIMIT_FAUCET_1 < "1");
+                                    _set_if_expression("IShbW0xJTUlUX0ZBVUNFVF8xXV0gPCAiMSIp");
                                     _if(_cycle_params().if_else,function(){
                                     section_insert()
+                                       section_start("", 725424136)!
+                                       /*Dat:eyJzIjoiYnJvd3NlcmphdmFzY3JpcHQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZnVuY3Rpb24gcmVtb3ZlT3ZlcmxheSgpIHtcclxuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoXCJkaXZcIikuZm9yRWFjaChmdW5jdGlvbihlbCkge1xyXG4gICAgICAgIGNvbnN0IHN0eWxlID0gd2luZG93LmdldENvbXB1dGVkU3R5bGUoZWwpO1xyXG5cclxuICAgICAgICBpZiAoXHJcbiAgICAgICAgICAgIChzdHlsZS5wb3NpdGlvbiA9PT0gXCJhYnNvbHV0ZVwiIHx8IHN0eWxlLnBvc2l0aW9uID09PSBcImZpeGVkXCIpICYmXHJcbiAgICAgICAgICAgIHBhcnNlSW50KHN0eWxlLndpZHRoKSA+PSB3aW5kb3cuaW5uZXJXaWR0aCAqIDAuOSAmJlxyXG4gICAgICAgICAgICBwYXJzZUludChzdHlsZS5oZWlnaHQpID49IHdpbmRvdy5pbm5lckhlaWdodCAqIDAuOSAmJlxyXG4gICAgICAgICAgICBzdHlsZS5wb2ludGVyRXZlbnRzICE9PSBcIm5vbmVcIlxyXG4gICAgICAgICkge1xyXG4gICAgICAgICAgICBlbC5yZW1vdmUoKTtcclxuICAgICAgICAgICAgY29uc29sZS5sb2coXCLEkMOjIHhvw6Egb3ZlcmxheTpcIiwgZWwpO1xyXG4gICAgICAgIH1cclxuICAgIH0pO1xyXG59XHJcblxyXG5kb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKFwiRE9NQ29udGVudExvYWRlZFwiLCByZW1vdmVPdmVybGF5KTtcclxuc2V0SW50ZXJ2YWwocmVtb3ZlT3ZlcmxheSwgMTAwMCk7XHJcbiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+                                       page().script2("function removeOverlay() \u007b\r\n    document.querySelectorAll(\u0022div\u0022).forEach(function(el) \u007b\r\n        const style = window.getComputedStyle(el);\r\n\r\n        if (\r\n            (style.position === \u0022absolute\u0022 || style.position === \u0022fixed\u0022) \u0026\u0026\r\n            parseInt(style.width) \u003e= window.innerWidth * 0.9 \u0026\u0026\r\n            parseInt(style.height) \u003e= window.innerHeight * 0.9 \u0026\u0026\r\n            style.pointerEvents !== \u0022none\u0022\r\n        ) \u007b\r\n            el.remove();\r\n            console.log(\u0022Đã xoá overlay:\u0022, el);\r\n        \u007d\r\n    \u007d);\r\n\u007d\r\n\r\ndocument.addEventListener(\u0022DOMContentLoaded\u0022, removeOverlay);\r\nsetInterval(removeOverlay, 1000);\r\n",JSON.stringify(_read_variables([])))!
+                                       var _parse_result = JSON.parse(_result())
+                                       _write_variables(JSON.parse(_parse_result.variables))
+                                       if(!_parse_result.is_success)
+                                       fail(_parse_result.error)
+                                       section_end()!
+
                                        section_start("", 573310287)!
                                        /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiSVNfRVhJU1RTIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IGg0ID4gc3BhbiIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IGg0ID4gc3BhbiIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5iYWRnZSIsImN1cnJlbnQiOiJtYXRjaCIsIm1hdGNoIjoiPk1BVENIPkVub3VnaCIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJib2R5XCIpL2RpdltAY2xhc3M9XCJ3cmFwcGVyLXBhcmVudFwiXS9kaXZbQGNsYXNzPVwiY29udGVudC13cmFwXCJdL2RpdltAY2xhc3M9XCIgbWFpbi1jb250ZW50XCJdL2RpdltAY2xhc3M9XCJjb250YWluZXItZmx1aWRcIl0vZGl2W0BjbGFzcz1cImNhcmQtc20tZ3JpZCBweC0zIG1iLTVcIl0vZGl2W0BjbGFzcz1cImNhcmQtc20gYmctbWFpblwiXS9kaXZbQGNsYXNzPVwiY2FyZC1zbS10aXRsZVwiXS9oNFsxXS9zcGFuW0BjbGFzcz1cImJhZGdlIGJnLXN1Y2Nlc3NcIl0iLCJhdCI6IjgwOCwgMjg1Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
                                        /*Browser*/
@@ -43487,6 +43496,30 @@
                                        /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJyb2xlIjoic2xhdmUiLCJzbGF2ZSI6OTU4NzMwNjQ0LCJtYXN0ZXIiOjE1NzY5OTc2MywiaWZfdmFyIjoiX2N5Y2xlX3BhcmFtcygpLmlmX2Vsc2UiLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0lTX0VYSVNUU11dIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOnRydWV9XX0=*/
                                        _if(!_cycle_params().if_else,function(){
                                        section_insert()
+                                          section_start("", 839359370)!
+                                          /*Dat:eyJzIjoidGFiaW5mbyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJVcmxMaXN0IiwidHlwZSI6InZhciIsImRhdGEiOiJVUkxfTElTVCJ9LHsiaWQiOiJUb3RhbFRhYnMiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRPVEFMX1RBQlMifSx7ImlkIjoiQ3VycmVudEluZGV4IiwidHlwZSI6InZhciIsImRhdGEiOiJUQUJfSU5ERVgifV19*/
+                                          /*Browser*/
+                                          _popupinfo()!
+                                          var json = JSON.parse(_result())
+                                          VAR_TAB_INDEX = json["index"]
+                                          VAR_URL_LIST = json["urls"]
+                                          VAR_TOTAL_TABS = json["urls"].length
+                                          section_end()!
+
+                                          section_start("", 72935396)!
+                                          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RPVEFMX1RBQlNdXSA+IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+                                          _set_if_expression("W1tUT1RBTF9UQUJTXV0gPiAx");
+                                          _if(VAR_TOTAL_TABS > 1,function(){
+                                          section_insert()
+                                             section_start("", 287744063)!
+                                             /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9DTE9TRV9BTEwifV19*/
+                                             _call_function(_CLOSE_ALL,{})!
+                                             _result_function()
+                                             section_end()!
+
+                                          })!
+                                          section_end()!
+
                                           section_start("", 193288073)!
                                           /*Dat:eyJzIjoiY29udGludWUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOltdfQ==*/
                                           _next("function")
@@ -43750,6 +43783,29 @@
                _set_if_expression("W1tJU19FWElTVFNfMl1d");
                _if(typeof(VAR_IS_EXISTS_2) !== "undefined" ? (VAR_IS_EXISTS_2) : undefined,function(){
                section_insert()
+                  section_start("", 889470662)!
+                  /*Dat:eyJzIjoiYnJvd3NlcmphdmFzY3JpcHQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZnVuY3Rpb24gcmVtb3ZlT3ZlcmxheSgpIHtcclxuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoXCJkaXZcIikuZm9yRWFjaChmdW5jdGlvbihlbCkge1xyXG4gICAgICAgIGNvbnN0IHN0eWxlID0gd2luZG93LmdldENvbXB1dGVkU3R5bGUoZWwpO1xyXG5cclxuICAgICAgICBpZiAoXHJcbiAgICAgICAgICAgIChzdHlsZS5wb3NpdGlvbiA9PT0gXCJhYnNvbHV0ZVwiIHx8IHN0eWxlLnBvc2l0aW9uID09PSBcImZpeGVkXCIpICYmXHJcbiAgICAgICAgICAgIHBhcnNlSW50KHN0eWxlLndpZHRoKSA+PSB3aW5kb3cuaW5uZXJXaWR0aCAqIDAuOSAmJlxyXG4gICAgICAgICAgICBwYXJzZUludChzdHlsZS5oZWlnaHQpID49IHdpbmRvdy5pbm5lckhlaWdodCAqIDAuOSAmJlxyXG4gICAgICAgICAgICBzdHlsZS5wb2ludGVyRXZlbnRzICE9PSBcIm5vbmVcIlxyXG4gICAgICAgICkge1xyXG4gICAgICAgICAgICBlbC5yZW1vdmUoKTtcclxuICAgICAgICAgICAgY29uc29sZS5sb2coXCLEkMOjIHhvw6Egb3ZlcmxheTpcIiwgZWwpO1xyXG4gICAgICAgIH1cclxuICAgIH0pO1xyXG59XHJcblxyXG5kb2N1bWVudC5hZGRFdmVudExpc3RlbmVyKFwiRE9NQ29udGVudExvYWRlZFwiLCByZW1vdmVPdmVybGF5KTtcclxuc2V0SW50ZXJ2YWwocmVtb3ZlT3ZlcmxheSwgMTAwMCk7XHJcbiIsImNsYXNzIjoiZXhwcmVzc2lvbiJ9XX0=*/
+                  page().script2("function removeOverlay() \u007b\r\n    document.querySelectorAll(\u0022div\u0022).forEach(function(el) \u007b\r\n        const style = window.getComputedStyle(el);\r\n\r\n        if (\r\n            (style.position === \u0022absolute\u0022 || style.position === \u0022fixed\u0022) \u0026\u0026\r\n            parseInt(style.width) \u003e= window.innerWidth * 0.9 \u0026\u0026\r\n            parseInt(style.height) \u003e= window.innerHeight * 0.9 \u0026\u0026\r\n            style.pointerEvents !== \u0022none\u0022\r\n        ) \u007b\r\n            el.remove();\r\n            console.log(\u0022Đã xoá overlay:\u0022, el);\r\n        \u007d\r\n    \u007d);\r\n\u007d\r\n\r\ndocument.addEventListener(\u0022DOMContentLoaded\u0022, removeOverlay);\r\nsetInterval(removeOverlay, 1000);\r\n",JSON.stringify(_read_variables([])))!
+                  var _parse_result = JSON.parse(_result())
+                  _write_variables(JSON.parse(_parse_result.variables))
+                  if(!_parse_result.is_success)
+                  fail(_parse_result.error)
+                  section_end()!
+
+                  section_start("", 711140147)!
+                  /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoic2xlZXBmcm9tIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIxMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50In0seyJpZCI6InNsZWVwZnJvbXRvIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiIzMDAwIiwiY2xhc3MiOiJpbnQifSx7ImlkIjoic2xlZXByYW5kb20iLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX1dfQ==*/
+                  sleep(3000)!
+                  section_end()!
+
+                  section_start("", 363849957)!
+                  /*Dat:eyJzIjoiYnJvd3NlcmphdmFzY3JpcHQiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiQ29kZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiZnVuY3Rpb24gcmVtb3ZlSnVuaygpIHtcclxuICAgIC8vIFjDs2Egb3ZlcmxheSBjaGUgdG/DoG4gdHJhbmcgKG7hur91IGPDsylcclxuICAgIGRvY3VtZW50LnF1ZXJ5U2VsZWN0b3JBbGwoXCJkaXZcIikuZm9yRWFjaChlbCA9PiB7XHJcbiAgICAgICAgY29uc3Qgc3R5bGUgPSB3aW5kb3cuZ2V0Q29tcHV0ZWRTdHlsZShlbCk7XHJcbiAgICAgICAgaWYgKFxyXG4gICAgICAgICAgICAoc3R5bGUucG9zaXRpb24gPT09IFwiYWJzb2x1dGVcIiB8fCBzdHlsZS5wb3NpdGlvbiA9PT0gXCJmaXhlZFwiKSAmJlxyXG4gICAgICAgICAgICBwYXJzZUludChzdHlsZS53aWR0aCkgPj0gd2luZG93LmlubmVyV2lkdGggKiAwLjkgJiZcclxuICAgICAgICAgICAgcGFyc2VJbnQoc3R5bGUuaGVpZ2h0KSA+PSB3aW5kb3cuaW5uZXJIZWlnaHQgKiAwLjkgJiZcclxuICAgICAgICAgICAgc3R5bGUucG9pbnRlckV2ZW50cyAhPT0gXCJub25lXCJcclxuICAgICAgICApIHtcclxuICAgICAgICAgICAgZWwucmVtb3ZlKCk7XHJcbiAgICAgICAgICAgIGNvbnNvbGUubG9nKFwixJDDoyB4b8OhIG92ZXJsYXk6XCIsIGVsKTtcclxuICAgICAgICB9XHJcbiAgICB9KTtcclxuXHJcbiAgICAvLyBYw7NhIHThuqV0IGPhuqMgaWZyYW1lIHF14bqjbmcgY8Ohb1xyXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChcImlmcmFtZVwiKS5mb3JFYWNoKGVsID0+IHtcclxuICAgICAgICBjb25zdCBzcmMgPSBlbC5zcmMgfHwgXCJcIjtcclxuICAgICAgICBpZiAoc3JjLmluY2x1ZGVzKFwiYm1mYWRzLmNvbVwiKSB8fCBzcmMuaW5jbHVkZXMoXCJ6ZXJhZHMuY29tXCIpKSB7XHJcbiAgICAgICAgICAgIGVsLnJlbW92ZSgpO1xyXG4gICAgICAgICAgICBjb25zb2xlLmxvZyhcIsSQw6MgeG/DoSBpZnJhbWUgcXXhuqNuZyBjw6FvOlwiLCBzcmMpO1xyXG4gICAgICAgIH1cclxuICAgIH0pO1xyXG5cclxuICAgIC8vIFjDs2EgY29udGFpbmVyIGFkcyB0aGVvIGlkIGPDsyBcImFkbS1jb250YWluZXJcIlxyXG4gICAgZG9jdW1lbnQucXVlcnlTZWxlY3RvckFsbChcImRpdltpZF49J2FkbS1jb250YWluZXInXVwiKS5mb3JFYWNoKGVsID0+IHtcclxuICAgICAgICBlbC5yZW1vdmUoKTtcclxuICAgICAgICBjb25zb2xlLmxvZyhcIsSQw6MgeG/DoSBjb250YWluZXIgYWRzOlwiLCBlbC5pZCk7XHJcbiAgICB9KTtcclxufVxyXG5cclxuLy8gQ2jhuqF5IG5nYXkga2hpIERPTSBsb2FkIHhvbmdcclxuZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcihcIkRPTUNvbnRlbnRMb2FkZWRcIiwgcmVtb3ZlSnVuayk7XHJcblxyXG4vLyBLaeG7g20gdHJhIMSR4buLbmgga+G7syAocGjDsm5nIHRyYW5nIGNow6huIGzhuqFpKVxyXG5zZXRJbnRlcnZhbChyZW1vdmVKdW5rLCAxNTAwKTtcclxuIiwiY2xhc3MiOiJleHByZXNzaW9uIn1dfQ==*/
+                  page().script2("function removeJunk() \u007b\r\n    // Xóa overlay che toàn trang (nếu có)\r\n    document.querySelectorAll(\u0022div\u0022).forEach(el =\u003e \u007b\r\n        const style = window.getComputedStyle(el);\r\n        if (\r\n            (style.position === \u0022absolute\u0022 || style.position === \u0022fixed\u0022) \u0026\u0026\r\n            parseInt(style.width) \u003e= window.innerWidth * 0.9 \u0026\u0026\r\n            parseInt(style.height) \u003e= window.innerHeight * 0.9 \u0026\u0026\r\n            style.pointerEvents !== \u0022none\u0022\r\n        ) \u007b\r\n            el.remove();\r\n            console.log(\u0022Đã xoá overlay:\u0022, el);\r\n        \u007d\r\n    \u007d);\r\n\r\n    // Xóa tất cả iframe quảng cáo\r\n    document.querySelectorAll(\u0022iframe\u0022).forEach(el =\u003e \u007b\r\n        const src = el.src || \u0022\u0022;\r\n        if (src.includes(\u0022bmfads.com\u0022) || src.includes(\u0022zerads.com\u0022)) \u007b\r\n            el.remove();\r\n            console.log(\u0022Đã xoá iframe quảng cáo:\u0022, src);\r\n        \u007d\r\n    \u007d);\r\n\r\n    // Xóa container ads theo id có \u0022adm-container\u0022\r\n    document.querySelectorAll(\u0022div[id^=\u0027adm-container\u0027]\u0022).forEach(el =\u003e \u007b\r\n        el.remove();\r\n        console.log(\u0022Đã xoá container ads:\u0022, el.id);\r\n    \u007d);\r\n\u007d\r\n\r\n// Chạy ngay khi DOM load xong\r\ndocument.addEventListener(\u0022DOMContentLoaded\u0022, removeJunk);\r\n\r\n// Kiểm tra định kỳ (phòng trang chèn lại)\r\nsetInterval(removeJunk, 1500);\r\n",JSON.stringify(_read_variables([])))!
+                  var _parse_result = JSON.parse(_result())
+                  _write_variables(JSON.parse(_parse_result.variables))
+                  if(!_parse_result.is_success)
+                  fail(_parse_result.error)
+                  section_end()!
+
                   section_start("", 891855611)!
                   /*Dat:eyJzIjoiZXhpc3QiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiU2F2ZSIsInR5cGUiOiJ2YXIiLCJkYXRhIjoiSVNfRVhJU1RTIn0seyJpZCI6IkNoZWNrIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6dHJ1ZX1dLCJwIjp7ImlzX2ltYWdlIjpmYWxzZSwiY3NzIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDIpID4gc3BhbiIsInZlcnNpb24iOiIxLjAiLCJjc3MxIjoiID5DU1M+IDpudGgtY2hpbGQoMikgPiA6bnRoLWNoaWxkKDIpID4gc3BhbiIsImNzczIiOiIiLCJjc3MzIjoiID5DU1M+IC5sYXlvdXQtcHgtc3BhY2luZyA+IDpudGgtY2hpbGQoMikgPiBzcGFuIiwiY3VycmVudCI6Im1hdGNoIiwibWF0Y2giOiI+TUFUQ0g+PHNwYW4gaWQ9XCJcIiBzdHlsZT1cInBvc2l0aW9uOiBhYnNvbHV0ZTsgeiIsInhwYXRoIjoiID5YUEFUSD4gaWQoXCJcIikiLCJhdCI6IjM3MiwgMjM3Iiwid2UiOmZhbHNlLCJmYSI6ZmFsc2V9fQ==*/
                   /*Browser*/
@@ -43818,6 +43874,30 @@
                   })!
                   section_end()!
 
+                  section_start("", 234046323)!
+                  /*Dat:eyJzIjoidGFiaW5mbyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJVcmxMaXN0IiwidHlwZSI6InZhciIsImRhdGEiOiJVUkxfTElTVCJ9LHsiaWQiOiJUb3RhbFRhYnMiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRPVEFMX1RBQlMifSx7ImlkIjoiQ3VycmVudEluZGV4IiwidHlwZSI6InZhciIsImRhdGEiOiJUQUJfSU5ERVgifV19*/
+                  /*Browser*/
+                  _popupinfo()!
+                  var json = JSON.parse(_result())
+                  VAR_TAB_INDEX = json["index"]
+                  VAR_URL_LIST = json["urls"]
+                  VAR_TOTAL_TABS = json["urls"].length
+                  section_end()!
+
+                  section_start("", 76308795)!
+                  /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RPVEFMX1RBQlNdXSA+IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+                  _set_if_expression("W1tUT1RBTF9UQUJTXV0gPiAx");
+                  _if(VAR_TOTAL_TABS > 1,function(){
+                  section_insert()
+                     section_start("", 837864891)!
+                     /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9DTE9TRV9BTEwifV19*/
+                     _call_function(_CLOSE_ALL,{})!
+                     _result_function()
+                     section_end()!
+
+                  })!
+                  section_end()!
+
                   section_start("", 272838030)!
                   /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9DRl8xXyJ9LHsiaWQiOiJQYXJhbUlkXzQzNTM1MzVmNDM0MTUwNTQ0MzQ4NDE1ZjQzNDYiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IiA+Q1NTPiAuY2YtdHVybnN0aWxlID4gZGl2IiwiY2xhc3MiOiJzdHJpbmcifV19*/
                   _call_function(_CF_1_,{ "CSS_CAPTCHA_CF" : (" \u003eCSS\u003e .cf-turnstile \u003e div")  })!
@@ -43830,6 +43910,30 @@
                section_start("", 288949364)!
                /*Dat:eyJzIjoic2xlZXAiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6InNsZWVwZnJvbSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2xlZXB0byIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiMTAwMCIsImNsYXNzIjoiaW50IiwiaXNfZGVmIjp0cnVlfSx7ImlkIjoic2xlZXBmcm9tdG8iLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEwMDAiLCJjbGFzcyI6ImludCIsImlzX2RlZiI6dHJ1ZX0seyJpZCI6InNsZWVwcmFuZG9tIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2UsImlzX2RlZiI6dHJ1ZX1dfQ==*/
                sleep(1000)!
+               section_end()!
+
+               section_start("", 813871187)!
+               /*Dat:eyJzIjoidGFiaW5mbyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJVcmxMaXN0IiwidHlwZSI6InZhciIsImRhdGEiOiJVUkxfTElTVCJ9LHsiaWQiOiJUb3RhbFRhYnMiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRPVEFMX1RBQlMifSx7ImlkIjoiQ3VycmVudEluZGV4IiwidHlwZSI6InZhciIsImRhdGEiOiJUQUJfSU5ERVgifV19*/
+               /*Browser*/
+               _popupinfo()!
+               var json = JSON.parse(_result())
+               VAR_TAB_INDEX = json["index"]
+               VAR_URL_LIST = json["urls"]
+               VAR_TOTAL_TABS = json["urls"].length
+               section_end()!
+
+               section_start("", 730803485)!
+               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RPVEFMX1RBQlNdXSA+IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+               _set_if_expression("W1tUT1RBTF9UQUJTXV0gPiAx");
+               _if(VAR_TOTAL_TABS > 1,function(){
+               section_insert()
+                  section_start("", 818852578)!
+                  /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9DTE9TRV9BTEwifV19*/
+                  _call_function(_CLOSE_ALL,{})!
+                  _result_function()
+                  section_end()!
+
+               })!
                section_end()!
 
                section_start("", 255150072)!
@@ -44124,6 +44228,30 @@
 
                })!
                delete _cycle_params().if_else;
+               section_end()!
+
+               section_start("", 694882019)!
+               /*Dat:eyJzIjoidGFiaW5mbyIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJVcmxMaXN0IiwidHlwZSI6InZhciIsImRhdGEiOiJVUkxfTElTVCJ9LHsiaWQiOiJUb3RhbFRhYnMiLCJ0eXBlIjoidmFyIiwiZGF0YSI6IlRPVEFMX1RBQlMifSx7ImlkIjoiQ3VycmVudEluZGV4IiwidHlwZSI6InZhciIsImRhdGEiOiJUQUJfSU5ERVgifV19*/
+               /*Browser*/
+               _popupinfo()!
+               var json = JSON.parse(_result())
+               VAR_TAB_INDEX = json["index"]
+               VAR_URL_LIST = json["urls"]
+               VAR_TOTAL_TABS = json["urls"].length
+               section_end()!
+
+               section_start("", 244027596)!
+               /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW1RPVEFMX1RBQlNdXSA+IDEiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
+               _set_if_expression("W1tUT1RBTF9UQUJTXV0gPiAx");
+               _if(VAR_TOTAL_TABS > 1,function(){
+               section_insert()
+                  section_start("", 192660617)!
+                  /*Dat:eyJzIjoiZXhlY3V0ZWZ1bmN0aW9uIiwidiI6MSwiZiI6W10sInV3IjoiMCIsInV0IjoiMCIsInV0byI6IjAiLCJ1bSI6IjAiLCJkIjpbeyJpZCI6IkZ1bmN0aW9uTmFtZSIsInR5cGUiOiJ0ZXh0IiwiZGF0YSI6Il9DTE9TRV9BTEwifV19*/
+                  _call_function(_CLOSE_ALL,{})!
+                  _result_function()
+                  section_end()!
+
+               })!
                section_end()!
 
                section_start("\u007b\u0022c\u0022:\u00225\u0022\u007d", 629946945)!
@@ -137206,7 +137334,7 @@ ToolboxHeight=322
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
-ScenarioWidth=848
+ScenarioWidth=728
 Zoom=100
 IsMaximized=true
 Restart=true
