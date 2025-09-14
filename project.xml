@@ -146369,7 +146369,8 @@ coinads.net
 altcryp.com
 pepefaucet.xyz
 adbtc.top
-luckywatch.pro</Values>
+luckywatch.pro
+payeer.com</Values>
                <Selected></Selected>
                <SelectType>2</SelectType>
           </Model>
@@ -147227,8 +147228,8 @@ enable</Values>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
                <IsAdvanced>0</IsAdvanced>
-               <Visible>0</Visible>
-               <Enabled>0</Enabled>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
                <AllowedTypes>Select</AllowedTypes>
                <Values>1. Tự động</Values>
                <Selected>0</Selected>
@@ -147243,8 +147244,8 @@ enable</Values>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>Select</Type>
                <IsAdvanced>0</IsAdvanced>
-               <Visible>0</Visible>
-               <Enabled>0</Enabled>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
                <AllowedTypes>Select</AllowedTypes>
                <Values>1. RUB
 2. USD</Values>
@@ -147260,8 +147261,8 @@ enable</Values>
                <VisibilityConditionVariable></VisibilityConditionVariable>
                <Type>FixedString</Type>
                <IsAdvanced>0</IsAdvanced>
-               <Visible>0</Visible>
-               <Enabled>0</Enabled>
+               <Visible>1</Visible>
+               <Enabled>1</Enabled>
                <AllowedTypes>FixedString</AllowedTypes>
                <Value></Value>
                <NotEmpty>0</NotEmpty>
