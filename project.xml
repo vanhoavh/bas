@@ -44332,7 +44332,7 @@
                })()
                section_end()!
 
-               section_start("\u007b\u0022f\u0022:true\u007d", 432908775)!
+               section_start("", 432908775)!
                /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0lTX0VYSVNUU18xXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
                _set_if_expression("W1tJU19FWElTVFNfMV1d");
                _if(typeof(VAR_IS_EXISTS_1) !== "undefined" ? (VAR_IS_EXISTS_1) : undefined,function(){
@@ -44409,7 +44409,7 @@
                })!
                section_end()!
 
-               section_start("\u007b\u0022f\u0022:true\u007d", 545287339)!
+               section_start("", 545287339)!
                /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0lTX0VYSVNUU18yXV0iLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
                _set_if_expression("W1tJU19FWElTVFNfMl1d");
                _if(typeof(VAR_IS_EXISTS_2) !== "undefined" ? (VAR_IS_EXISTS_2) : undefined,function(){
@@ -44463,8 +44463,8 @@
                _if(typeof(VAR_IS_EXISTS_3) !== "undefined" ? (VAR_IS_EXISTS_3) : undefined,function(){
                section_insert()
                   section_start("", 243576497)!
-                  /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6UEFUSF1dL3Byb2ZpbGVzL1tbQUNDX1BST0ZJTEVdXS9mYXVjZXQvW1tDT0lOMV1dL1tbRk9STUFUVEVEX0RBVEVfSElTXV0udHh0IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbTElNSVRfSk9CXV0tLS1saW1pdC0tLSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMyIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-                  native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "PATH") || '""') + "/profiles/" + VAR_ACC_PROFILE + "/faucet/" + VAR_COIN1 + "/" + VAR_FORMATTED_DATE_HIS + ".txt",value: (VAR_LIMIT_JOB + "---limit---").toString(),base64:false,append:false}))
+                  /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6UEFUSF1dL3Byb2ZpbGVzL1tbQUNDX1BST0ZJTEVdXS9mYXVjZXQvW1tDT0lOMV1dL1tbRk9STUFUVEVEX0RBVEVfSElTXV0udHh0IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEvMTUtLS1saW1pdC0tLSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMyIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+                  native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "PATH") || '""') + "/profiles/" + VAR_ACC_PROFILE + "/faucet/" + VAR_COIN1 + "/" + VAR_FORMATTED_DATE_HIS + ".txt",value: ("1/15---limit---").toString(),base64:false,append:false}))
                   section_end()!
 
                   section_start("", 545305176)!
@@ -44944,8 +44944,8 @@
                      _if(typeof(VAR_IS_EXISTS_1) !== "undefined" ? (VAR_IS_EXISTS_1) : undefined,function(){
                      section_insert()
                         section_start("", 507534150)!
-                        /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6UEFUSF1dL3Byb2ZpbGVzL1tbQUNDX1BST0ZJTEVdXS9mYXVjZXQvW1tDT0lOMV1dL1tbRk9STUFUVEVEX0RBVEVfSElTXV0udHh0IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IltbTElNSVRfSk9CXV0tLS1saW1pdC0tLSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMyIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
-                        native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "PATH") || '""') + "/profiles/" + VAR_ACC_PROFILE + "/faucet/" + VAR_COIN1 + "/" + VAR_FORMATTED_DATE_HIS + ".txt",value: (VAR_LIMIT_JOB + "---limit---").toString(),base64:false,append:false}))
+                        /*Dat:eyJzIjoiZmlsZXN5c3RlbV93cml0ZWZpbGUiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiRmlsZSIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tHTE9CQUw6UEFUSF1dL3Byb2ZpbGVzL1tbQUNDX1BST0ZJTEVdXS9mYXVjZXQvW1tDT0lOMV1dL1tbRk9STUFUVEVEX0RBVEVfSElTXV0udHh0IiwiY2xhc3MiOiJzdHJpbmcifSx7ImlkIjoiVmFsdWUiLCJ0eXBlIjoiY29uc3RyIiwiZGF0YSI6IjEvMTUtLS1saW1pdC0tLSIsImNsYXNzIjoic3RyaW5nIn0seyJpZCI6IkNoZWNrMyIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfSx7ImlkIjoiQ2hlY2siLCJ0eXBlIjoiY2hlY2siLCJkYXRhIjpmYWxzZX0seyJpZCI6IkNoZWNrMiIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+                        native("filesystem", "writefile", JSON.stringify({path: JSON.parse(P("basglobal", "PATH") || '""') + "/profiles/" + VAR_ACC_PROFILE + "/faucet/" + VAR_COIN1 + "/" + VAR_FORMATTED_DATE_HIS + ".txt",value: ("1/15---limit---").toString(),base64:false,append:false}))
                         section_end()!
 
                      })!
