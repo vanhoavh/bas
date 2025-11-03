@@ -3341,9 +3341,9 @@
                                        section_end()!
 
                                        section_start("", 431954313)!
-                                       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0FDQ19DRE5DXV0uaW5kZXhPZihcInN0b3BfY2FwdGNoYVwiKSA8IDAiLCJjbGFzcyI6ImV4cHJlc3Npb24ifSx7ImlkIjoiSWZFbHNlIiwidHlwZSI6ImNoZWNrIiwiZGF0YSI6ZmFsc2V9XX0=*/
-                                       _set_if_expression("W1tBQ0NfQ0ROQ11dLmluZGV4T2YoInN0b3BfY2FwdGNoYSIpIDwgMA==");
-                                       _if(VAR_ACC_CDNC.indexOf("stop_captcha") < 0,function(){
+                                       /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsImQiOlt7ImlkIjoiSWZFeHByZXNzaW9uIiwidHlwZSI6ImNvbnN0ciIsImRhdGEiOiJbW0FDQ19DRE5DXV0uaW5kZXhPZihcInN0b3BfY2FwdGNoYVwiKSA+PSAwIiwiY2xhc3MiOiJleHByZXNzaW9uIn0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlfV19*/
+                                       _set_if_expression("W1tBQ0NfQ0ROQ11dLmluZGV4T2YoInN0b3BfY2FwdGNoYSIpID49IDA=");
+                                       _if(VAR_ACC_CDNC.indexOf("stop_captcha") >= 0,function(){
                                        section_insert()
                                           section_start("", 818357628)!
                                           /*Dat:eyJzIjoidXNlcl9ub3RpZmljYXRpb25fbWFudWFsX2Jyb3dzZXJfY29udHJvbCIsInYiOjEsImYiOltdLCJ1dyI6IjAiLCJ1dCI6IjAiLCJ1dG8iOiIwIiwidW0iOiIwIiwiZCI6W3siaWQiOiJMYWJlbCIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiIiwiY2xhc3MiOiJzdHJpbmcifV19*/
@@ -5748,7 +5748,7 @@
          VAR_CSS_CAPTCHA = "\u003eMATCH\u003e\u003cdiv\u003e\u003cinput type=\u0022hidden\u0022 name=\u0022cf-turns"
          section_end()!
 
-         section_start("\u007b\u0022f\u0022:true\u007d", 520399318)!
+         section_start("", 520399318)!
          /*Dat:eyJzIjoiaWYiLCJ2IjoxLCJmIjpbXSwidXciOiIwIiwidXQiOiIwIiwidXRvIjoiMCIsInVtIjoiMCIsInVlIjoiMCIsInVzcCI6IjAiLCJkIjpbeyJpZCI6IklmRXhwcmVzc2lvbiIsInR5cGUiOiJjb25zdHIiLCJkYXRhIjoiW1tTTF1dID09IFwiYXV0b1wiIiwiY2xhc3MiOiJleHByZXNzaW9uIiwiaXNfZGVmIjpmYWxzZX0seyJpZCI6IklmRWxzZSIsInR5cGUiOiJjaGVjayIsImRhdGEiOmZhbHNlLCJpc19kZWYiOnRydWV9XX0=*/
          _set_if_expression("W1tTTF1dID09ICJhdXRvIg==");
          _if(VAR_SL == "auto",function(){
@@ -148494,7 +148494,7 @@ EnableComponents=true
 AutostartDebug=false
 SaveBrowserLog=false
 ProfilesCaching=true
-ToolboxHeight=441
+ToolboxHeight=361
 MaxBrowserStartSimultaneously=3
 MinFreeMemoryToStartBrowser=1500
 MinUnusedCpu=35
